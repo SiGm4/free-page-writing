@@ -1,0 +1,50 @@
+nav{
+    background-color: rgba(255,255,255,0.3);
+}
+
+#nav-container{
+    padding-left:10%;
+    padding-right:10%;
+}
+
+.navbar-brand{
+    height: 100%
+}
+
+.logo-responsive{
+    max-height:100%;
+    width: auto;
+}
+
+.icon-bar {
+    background-color: white;
+    opacity: 0.8;
+}
+
+.navbar-toggle {
+    margin-top: 35px;
+}
+
+ul.nav{
+    margin-top : 30px;
+    height:100%;
+}
+ul.nav > li > a {
+    color:white;
+}
+
+ul.nav > li {
+    height: 100%;
+}
+
+.jumbotron{
+    background:  -moz-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("hero.jpg");
+    background:  linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("hero.jpg");
+    background: -webkit-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("hero.jpg");
+    background: -o-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    height: 100vh;
+    margin-bottom: 0px;
+}
