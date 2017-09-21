@@ -135,3 +135,17 @@ ul.nav > li > a:hover,  ul.nav > li > a:active, ul.nav > li > a:focus {
         margin-top:200px;
     }
 }
+
+@media (max-height: 800px) {
+    .jumbotron h1{
+        font-size:70px;
+    }
+    
+    .jumbotron h2{
+        font-size:26px;
+    }
+    
+    #jumbotron-cont{
+        margin-top:100px;
+    }
+}
