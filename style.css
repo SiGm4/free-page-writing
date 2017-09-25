@@ -193,8 +193,8 @@ ul.nav > li > a:focus {
 
 @media screen and (min-width: 1200px) {
   .content {
-    margin-top: 30% !important;
-    margin-left: 40%;
+    margin-top: 30vw !important;
+    margin-left: 40vw;
   }
 
   h1 {
@@ -213,7 +213,7 @@ ul.nav > li > a:focus {
 
 @media screen and (min-width: 1800px) {
   .content {
-    margin-left: 37% !important;
+    margin-left: 37vw !important;
   }
 
   h1 {
