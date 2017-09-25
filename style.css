@@ -127,7 +127,7 @@ ul.nav > li > a:focus {
 
 @media screen and (max-width: 599px) {
   .content {
-    margin-top: 12rem;
+    margin-top: 27%;
   }
 
   h1 {
@@ -145,7 +145,7 @@ ul.nav > li > a:focus {
 
 @media screen and (min-width: 600px) {
   .content {
-    margin-top: 17rem;
+    margin-top: 27%;
   }
 
   h1 {
@@ -168,8 +168,8 @@ ul.nav > li > a:focus {
 
 @media screen and (min-width: 900px) {
   .content {
-    margin-top: 27rem;
-    margin-left: 35rem;
+    margin-top: 37%;
+    margin-left: 48%;
   }
 
   h1 {
@@ -188,8 +188,8 @@ ul.nav > li > a:focus {
 
 @media screen and (min-width: 1200px) {
   .content {
-    margin-top: 30rem;
-    margin-left: 43rem;
+    margin-top: 26%;
+    margin-left: 38%;
   }
 
   h1 {
