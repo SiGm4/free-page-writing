@@ -1,151 +1,206 @@
-body{
-    font-family: 'Titillium Web', sans-serif;
+body {
+  font-family: "Titillium Web", sans-serif;
 }
 
-nav{
-    background-color: rgba(255,255,255,0.2);
+nav {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-#nav-container{
-    padding-left:10%;
-    padding-right:10%;
+#nav-container {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-.navbar-brand{
-    height: 100%
+.navbar-brand {
+  height: 100%;
 }
 
-.logo-responsive{
-    max-height:100%;
-    width: auto;
+.logo-responsive {
+  max-height: 100%;
+  width: auto;
 }
 
 .icon-bar {
-    background-color: white;
-    opacity: 0.8;
+  background-color: white;
+  opacity: 0.8;
 }
 
 .navbar-toggle {
-    margin-top: 35px;
+  margin-top: 35px;
 }
 
-ul.nav{
-    margin-top : 30px;
-    height:100%;
+ul.nav {
+  margin-top: 30px;
+  height: 100%;
 }
 
-ul.nav > li{
-    padding-left:15px;
-    font-size: 19px;
+ul.nav > li {
+  padding-left: 15px;
+  font-size: 19px;
 }
 
 ul.nav > li > a {
-    color:white;
+  color: white;
 }
 
-ul.nav > li > a:hover,  ul.nav > li > a:active, ul.nav > li > a:focus {
-    background-color: rgba(0,0,0,0);
-    color:#bbb;
+ul.nav > li > a:hover,
+ul.nav > li > a:active,
+ul.nav > li > a:focus {
+  background-color: rgba(0, 0, 0, 0);
+  color: #bbb;
 }
 
-.jumbotron{
-    background:  -moz-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("hero.jpg") no-repeat center center fixed;
-    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("hero.jpg") no-repeat center center fixed;
-    background: -webkit-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("hero.jpg") no-repeat center center fixed;
-    background: -o-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("hero.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color:white;
-    height: 100vh;
-    margin-bottom: 0px;
+.jumbotron {
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("hero.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("hero.jpg") no-repeat center center fixed;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("hero.jpg") no-repeat center center fixed;
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("hero.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  margin-bottom: 0px;
 }
 
-.jumbotron h1{
-    font-size:85px;
+#getStartedBtn {
+  background: royalblue;
+  filter: grayscale(65%);
+  /* margin-top: 35px;
+  font-size: 40px; */
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
 
-.jumbotron h2{
-    font-size:34px;
-}
-
-#jumbotron-cont{
-    margin-top:400px;
-}
-
-#getStartedBtn{
-    background: royalblue;
-    filter: grayscale(65%);
-    margin-top: 35px;
-    font-size:40px;
-    border: 0;
-    border-radius:5px;
-    padding:10px 20px;
-}
-
-#getStartedBtn:hover{
-    filter: grayscale(40%);
+#getStartedBtn:hover {
+  filter: grayscale(40%);
 }
 
 #getStartedBtn:active {
-    transform: translateY(-4px);
-  }
+  transform: translateY(-1px);
+}
 
 /*Fix for collapse*/
-@media (max-width: 900px) {
+@media (max-width: 899px) {
   .navbar-header {
-      float: none;
+    float: none;
   }
-  .navbar-left,.navbar-right {
-      float: none !important;
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
   }
   .navbar-toggle {
-      display: block;
+    display: block;
   }
   .navbar-collapse {
-      border-top: 1px solid transparent;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   }
   .navbar-fixed-top {
-      top: 0;
-      border-width: 0 0 1px;
+    top: 0;
+    border-width: 0 0 1px;
   }
   .navbar-collapse.collapse {
-      display: none!important;
+    display: none !important;
   }
   .navbar-nav {
-      float: none!important;
-      margin-top: 7.5px;
+    float: none !important;
+    margin-top: 7.5px;
   }
-  .navbar-nav>li {
-      float: none;
+  .navbar-nav > li {
+    float: none;
   }
-  .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
-  .collapse.in{
-      display:block !important;
+  .collapse.in {
+    display: block !important;
   }
 }
 
-@media (max-width: 1200px) {
-    #jumbotron-cont{
-        margin-top:200px;
-    }
+@media screen and (max-width: 599px) {
+  .content {
+    margin-top: 12rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  #getStartedBtn {
+    font-size: 3rem;
+  }
 }
 
-@media (max-height: 800px) {
-    .jumbotron h1{
-        font-size:70px;
-    }
-    
-    .jumbotron h2{
-        font-size:26px;
-    }
-    
-    #jumbotron-cont{
-        margin-top:100px;
-    }
+@media screen and (min-width: 600px) {
+  .content {
+    margin-top: 17rem;
+  }
+
+  h1 {
+    font-size: 6rem !important;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  #getStartedBtn {
+    font-size: 3rem;
+  }
+
+  .jumbotron {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .content {
+    margin-top: 27rem;
+    margin-left: 35rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+  }
+
+  #getStartedBtn {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content {
+    margin-top: 30rem;
+    margin-left: 43rem;
+  }
+
+  h1 {
+    font-size: 7.5rem !important;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  #getStartedBtn {
+    font-size: 4rem;
+  }
 }
