@@ -14,12 +14,16 @@
     background-color: rgba(0,0,0,0);
     font-size: 20px;
     color: white;
+    margin: 25px 0;
 }
 
 #signup-form label{
     font-size: 21px;
 }
 
+#signup-form i{
+    opacity:0.5;
+}
 
 .narrow{
     margin: auto;

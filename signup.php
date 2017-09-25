@@ -47,7 +47,7 @@
                             <div class="form-group has-feedback">
                                 <!--<label for="email">E-mail</label>-->
                                 <input type="text" name="email" id="email" placeholder="email@provider.com" class="form-control narrow"></input>
-                                <i class="glyphicon glyphicon-envelope form-control-feedback"></i>
+                                <i class="glyphicon glyphicon-envelope form-control-feedback"></i>                                
                             </div>
                             <div class="form-group has-feedback">
                                 <!--<label for="username">Username</label>-->
