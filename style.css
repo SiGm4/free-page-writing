@@ -2,6 +2,10 @@ body {
   font-family: "Titillium Web", sans-serif;
 }
 
+.container-fluid {
+  height: 100%;
+}
+
 nav {
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -83,7 +87,7 @@ ul.nav > li > a:focus {
 }
 
 #getStartedBtn:active {
-  transform: translateY(-1px);
+  transform: translateY(-3px);
 }
 
 /*Fix for collapse*/
@@ -127,7 +131,7 @@ ul.nav > li > a:focus {
 
 @media screen and (max-width: 599px) {
   .content {
-    margin-top: 27%;
+    margin-top: 50%;
   }
 
   h1 {
@@ -135,7 +139,8 @@ ul.nav > li > a:focus {
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-top: 0;
   }
 
   #getStartedBtn {
@@ -145,19 +150,20 @@ ul.nav > li > a:focus {
 
 @media screen and (min-width: 600px) {
   .content {
-    margin-top: 27%;
+    margin-top: 50%;
   }
 
   h1 {
-    font-size: 6rem !important;
+    font-size: 9rem !important;
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-top: 0;
   }
 
   #getStartedBtn {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   .jumbotron {
@@ -168,39 +174,57 @@ ul.nav > li > a:focus {
 
 @media screen and (min-width: 900px) {
   .content {
-    margin-top: 37%;
-    margin-left: 48%;
+    margin-top: 50% !important;
   }
 
   h1 {
-    font-size: 5rem;
+    font-size: 13rem !important;
   }
 
   h2 {
-    font-size: 2.1rem;
+    font-size: 5rem;
   }
 
   #getStartedBtn {
-    font-size: 3rem;
+    font-size: 6rem;
     margin-top: 1.5rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .content {
-    margin-top: 26%;
-    margin-left: 38%;
+    margin-top: 30% !important;
+    margin-left: 40%;
   }
 
   h1 {
-    font-size: 7.5rem !important;
+    font-size: 8rem !important;
   }
 
   h2 {
-    font-size: 2.5rem;
+    margin-top: 0;
+    font-size: 3rem;
   }
 
   #getStartedBtn {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .content {
+    margin-left: 37% !important;
+  }
+
+  h1 {
+    font-size: 11rem !important;
+  }
+
+  h2 {
     font-size: 4rem;
+  }
+
+  #getStartedBtn {
+    font-size: 5rem;
   }
 }
