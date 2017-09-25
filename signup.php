@@ -32,7 +32,7 @@
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="#">CONTACT</a></li>
                     <li><a href="signup.php">SIGN UP</a></li>
-                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="login.php">LOGIN</a></li>
                 </ul>
             </div>
         </div>
@@ -42,11 +42,11 @@
             <div class="container signup-container">
                 <div class="col-md-6 col-md-offset-3 signup-inner-container">
                     <div class="col-md-8 col-md-offset-2">
-                        <form id="signup-form">
-                            <h3>Sign Up</h3>
+                        <form id="signup-form" class="text-center">
+                            <h2>Sign Up</h2>
                             <div class="form-group has-feedback">
                                 <!--<label for="email">E-mail</label>-->
-                                <input type="text" name="email" id="email" placeholder="email@provider.com" class="form-control narrow"></input>
+                                <input type="text" name="email" id="email" placeholder="E-mail" class="form-control narrow"></input>
                                 <i class="glyphicon glyphicon-envelope form-control-feedback"></i>                                
                             </div>
                             <div class="form-group has-feedback">
@@ -64,7 +64,8 @@
                                 <input type="password" name="confirm" id="confirm" placeholder="Confirm Password" class="form-control narrow"></input>
                                 <i class="glyphicon glyphicon-lock form-control-feedback"></i>
                             </div>
-                            <button type="submit" class="btn btn-default">Sign Up</button>
+                            <button type="submit" id="signupBtn" class="btn btn-block btn-primary">Sign Up</button>
+                            <p>Already have an account? <a href="login.php">Login</a></p>
                         </form>
                     </div>
                 </div>

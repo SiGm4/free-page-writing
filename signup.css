@@ -25,6 +25,28 @@
     opacity:0.5;
 }
 
+#signup-form h2{
+    font-size:55px;
+}
+
 .narrow{
     margin: auto;
+}
+
+.sbmt-button{
+    padding-left:0px;
+}
+
+.swap-text{
+    padding-right:0px;
+}
+
+.swap-text p{
+    font-size:13px;
+}
+
+#signupBtn{
+    margin-bottom:15px;
+    padding:10px;
+    font-size: 20px;
 }
