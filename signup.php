@@ -51,9 +51,8 @@
                             </div>
                             <div class="form-group has-feedback">
                                 <!--<label for="username">Username</label>-->
-                                <i class="glyphicon glyphicon-user form-control-feedback"></i>
                                 <input type="text" name="username" id="username" placeholder="Username" class="form-control narrow"></input>
-                                
+                                <i class="glyphicon glyphicon-user form-control-feedback"></i>
                             </div>
                             <div class="form-group has-feedback">
                                 <!--<label for="password">Password</label>-->
