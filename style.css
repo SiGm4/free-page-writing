@@ -130,10 +130,6 @@ ul.nav > li > a:focus {
 }
 
 @media screen and (max-width: 599px) {
-  .content {
-    margin-top: 50%;
-  }
-
   h1 {
     font-size: 5rem;
   }
@@ -148,11 +144,19 @@ ul.nav > li > a:focus {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 599px) and (orientation: portrait) {
   .content {
-    margin-top: 50%;
+    margin-top: 14rem;
   }
+}
 
+@media screen and (max-width: 599px) and (orientation: landscape) {
+  .content {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
   h1 {
     font-size: 9rem !important;
   }
@@ -172,11 +176,31 @@ ul.nav > li > a:focus {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) and (orientation: portrait) {
   .content {
-    margin-top: 50% !important;
+    margin-top: 30rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  .content {
+    margin-top: 12rem;
   }
 
+  h1 {
+    font-size: 4em !important;
+  }
+
+  h2 {
+    font-size: 2em !important;
+  }
+
+  #getStartedBtn {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 900px) {
   h1 {
     font-size: 13rem !important;
   }
@@ -191,19 +215,38 @@ ul.nav > li > a:focus {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) and (orientation: portrait) {
   .content {
-    margin-top: 30vw !important;
-    margin-left: 40vw;
+    margin-top: 45rem !important;
+  }
+}
+
+@media screen and (min-width: 900px) and (orientation: landscape) {
+  .content {
+    margin-top: 25rem !important;
   }
 
   h1 {
-    font-size: 8rem !important;
+    font-size: 10rem !important;
+  }
+
+  h2 {
+    font-size: 5rem !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content {
+    margin-top: 30rem !important;
+  }
+
+  h1 {
+    font-size: 9rem !important;
   }
 
   h2 {
     margin-top: 0;
-    font-size: 3rem;
+    font-size: 4rem !important;
   }
 
   #getStartedBtn {
@@ -213,7 +256,8 @@ ul.nav > li > a:focus {
 
 @media screen and (min-width: 1800px) {
   .content {
-    margin-left: 37vw !important;
+    margin-top: 52rem !important;
+    margin-left: 70rem !important;
   }
 
   h1 {
