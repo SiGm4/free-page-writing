@@ -1,5 +1,8 @@
-<html>
-
+<?php
+    if (isset($_POST['email'],$_POST['username'],$_POST['password'],$_POST['confirm'])){
+        include 'signup_query.php';
+    }
+?>
 <head>
     <title>Free Morning Pages Writing</title>
     <meta charset="UTF-8">
@@ -20,26 +23,33 @@
             <div class="container signup-container">
                 <div class="col-md-6 col-md-offset-3 signup-inner-container">
                     <div class="col-md-8 col-md-offset-2">
-                        <form id="signup-form" class="text-center">
+                        <form id="signup-form" class="text-center" action="" method="post">
                             <h2>Sign Up</h2>
+                            <span id="error">
+                                <?php 
+                                if (isset($error)){
+                                    echo $error;
+                                }
+                                ?>
+                            </span>
                             <div class="form-group has-feedback">
                                 <!--<label for="email">E-mail</label>-->
-                                <input type="text" name="email" id="email" placeholder="E-mail" class="form-control narrow"></input>
+                                <input type="text" name="email" id="email" placeholder="E-mail" class="form-control narrow" required></input>
                                 <i class="glyphicon glyphicon-envelope form-control-feedback"></i>                                
                             </div>
                             <div class="form-group has-feedback">
                                 <!--<label for="username">Username</label>-->
-                                <input type="text" name="username" id="username" placeholder="Username" class="form-control narrow"></input>
+                                <input type="text" name="username" id="username" placeholder="Username" class="form-control narrow" required></input>
                                 <i class="glyphicon glyphicon-user form-control-feedback"></i>
                             </div>
                             <div class="form-group has-feedback">
                                 <!--<label for="password">Password</label>-->
-                                <input type="password" name="password" id="password" placeholder="Password" class="form-control narrow"></input>
+                                <input type="password" name="password" id="password" placeholder="Password" class="form-control narrow" required></input>
                                 <i class="glyphicon glyphicon-lock form-control-feedback"></i>
                             </div>
                             <div class="form-group has-feedback">
                                 <!--<label for="confirm">Confirm Password</label>-->
-                                <input type="password" name="confirm" id="confirm" placeholder="Confirm Password" class="form-control narrow"></input>
+                                <input type="password" name="confirm" id="confirm" placeholder="Confirm Password" class="form-control narrow" required></input>
                                 <i class="glyphicon glyphicon-lock form-control-feedback"></i>
                             </div>
                             <button type="submit" id="signupBtn" class="btn btn-block btn-primary">Sign Up</button>

@@ -24,12 +24,12 @@
                             <h2>Log In</h2>
                             <div class="form-group has-feedback">
                                 <!--<label for="username">Username</label>-->
-                                <input type="text" name="username" id="username" placeholder="Username" class="form-control narrow"></input>
+                                <input type="text" name="username" id="username" placeholder="Username" class="form-control narrow" required></input>
                                 <i class="glyphicon glyphicon-user form-control-feedback"></i>
                             </div>
                             <div class="form-group has-feedback">
                                 <!--<label for="password">Password</label>-->
-                                <input type="password" name="password" id="password" placeholder="Password" class="form-control narrow"></input>
+                                <input type="password" name="password" id="password" placeholder="Password" class="form-control narrow" required></input>
                                 <i class="glyphicon glyphicon-lock form-control-feedback"></i>
                             </div>
                             <button type="submit" id="signupBtn" class="btn btn-block btn-primary">Log In</button>
