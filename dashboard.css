@@ -1,0 +1,30 @@
+body {
+  background-color: #333;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding-left: 5rem;
+  padding-right: 5rem;
+  height: auto;
+}
+
+#navContainer {
+  height: 100%;
+}
+
+.navbar-header {
+  height: 100%;
+}
+
+.navbar-brand {
+  height: 80px;
+}
+
+.img-responsive {
+  height: 100%;
+}
+
+.icon-bar {
+  background-color: white;
+}
