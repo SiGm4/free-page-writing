@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>                        
             </button>
             <a class="navbar-brand" href="index.html">
-                <img class="logo-responsive" id="logo" src="basic_logo.png" alt="Morning Pages Logo"></img>
+                <img class="logo-responsive" id="logo" src="img/basic_logo.png" alt="Morning Pages Logo"></img>
             </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
