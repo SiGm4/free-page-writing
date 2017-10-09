@@ -22,7 +22,7 @@
             $error = "Password is not correct";
         }
         else{
-            header("Location: dashboard.php");
+            header("Location: dashboard.html");
         }
     }
 
