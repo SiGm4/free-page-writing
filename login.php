@@ -1,3 +1,11 @@
+<?php
+    if (isset($_GET['signedUp']) && $_GET['signedUp']==1){
+        echo "Signup successful. Now login.";
+    }
+    if(isset($_POST['username'],$_POST['password'])){
+        include 'login_query.php';
+    }
+?>
 <html>
 
 <head>
@@ -20,8 +28,15 @@
             <div class="container signup-container">
                 <div class="col-md-6 col-md-offset-3 signup-inner-container">
                     <div class="col-md-8 col-md-offset-2">
-                        <form id="signup-form" class="text-center">
+                        <form id="signup-form" class="text-center" action="" method="post">
                             <h2>Log In</h2>
+                            <span id="error">
+                                <?php 
+                                if (isset($error)){
+                                    echo $error;
+                                }
+                                ?>
+                            </span>
                             <div class="form-group has-feedback">
                                 <!--<label for="username">Username</label>-->
                                 <input type="text" name="username" id="username" placeholder="Username" class="form-control narrow" required></input>

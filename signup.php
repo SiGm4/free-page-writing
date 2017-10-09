@@ -3,6 +3,7 @@
         include 'signup_query.php';
     }
 ?>
+<html>
 <head>
     <title>Free Morning Pages Writing</title>
     <meta charset="UTF-8">

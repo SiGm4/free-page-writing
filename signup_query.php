@@ -25,11 +25,13 @@
         else{
             $sql = "SELECT * FROM user WHERE Email='{$e}'";
             $result2 = $conn->query($sql);
-            if($result2->num_rows>0){  $error = "Email already exists";
-              
+            if($result2->num_rows>0){  
+                $error = "Email already exists";
             }
             else{
-                $sql = "INSERT INTO user (`Email`, `Username`, `Password`, `Status`, `Streak`) VALUES('{$e}','{$u}','{$p}','Basic','0')";
+                $hashed_p = password_hash($p, PASSWORD_DEFAULT);
+                $sql = "INSERT INTO user (`Email`, `Username`, `Password`, `Status`, `Streak`) VALUES('{$e}','{$u}','{$hashed_p}','Basic','0')";
+                echo $sql;
                 $result3 = $conn->query($sql);
                 header("Location: login.php");
             }
