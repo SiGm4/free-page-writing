@@ -1,0 +1,69 @@
+/* Navbar */
+
+body {
+  background-color: #333;
+  color: white;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.navbar-brand {
+  padding: 0;
+  height: 7vh;
+}
+
+.img-responsive {
+  height: 100%;
+}
+
+.icon-bar {
+  background-color: white;
+}
+
+ul.nav > li > a {
+  color: white;
+  font-size: 19px;
+}
+
+ul.nav > li > a:hover,
+ul.nav > li > a:active,
+ul.nav > li > a:focus {
+  background-color: rgba(0, 0, 0, 0);
+  color: #bbb;
+}
+
+/* Sidebar */
+
+.main {
+  padding: 0;
+}
+
+#sidebar {
+  height: 91vh;
+  margin-top: 9vh;
+  padding-left: 0;
+  background-color: purple;
+}
+
+#sidebarLinks > li {
+  width: 100%;
+}
+
+#sidebarLinks {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebarLink {
+  font-size: 26px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
